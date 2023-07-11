@@ -7,11 +7,13 @@ import { SquareComponent } from './square/square.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { BoardComponent } from './board/board.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SquareComponent
+    SquareComponent,
+    BoardComponent
   ],
   imports: [
     BrowserModule,
