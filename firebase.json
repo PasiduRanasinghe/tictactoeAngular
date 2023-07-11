@@ -1,0 +1,16 @@
+{
+  "hosting": [
+    {
+      "public": "./dist/tictactoeangular",
+      "target": "tictactoeangular",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "asia-east1"
+      }
+    }
+  ]
+}
