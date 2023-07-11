@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-columns: 8rem 8rem 8rem;
+    grid-gap: 0px;
+}
+
+app-square {
+    height: 8rem;
+}
+.spacer {
+    flex: 1 1 auto;
+  }
