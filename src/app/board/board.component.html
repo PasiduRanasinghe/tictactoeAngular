@@ -1,10 +1,12 @@
-<mat-toolbar>
+
+    <mat-toolbar>
     <span>Tic Tac Toe</span>
     <span class="spacer"></span>
     <button mat-raised-button color="#ffffff" (click)="newGame()">Start New Game</button>
 </mat-toolbar>
 
-<h2>Current Player: {{ player }}</h2>
+<h1>Current Player: {{ player }}</h1>
+<div id="board">
 <main>
     <app-square
         *ngFor="let val of squares; let i = index"
@@ -12,7 +14,8 @@
         (click)="makeMove(i)">
     </app-square>
 </main>
-
+</div>
 <h2 *ngIf="winner">
-    player {{ winner }} won the game!
+    Player {{ winner }} Won The Game!
 </h2>
+

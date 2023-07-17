@@ -1,7 +1,8 @@
 main {
     display: grid;
+    background-color: whitesmoke;
     grid-template-columns: 8rem 8rem 8rem;
-    grid-gap: 0px;
+    grid-gap: 0.1rem;
 }
 
 app-square {
@@ -10,3 +11,17 @@ app-square {
 .spacer {
     flex: 1 1 auto;
   }
+  h1, h2{
+    font-size: 2rem;
+    color: white;
+    text-decoration: solid;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+#board{
+    display: flex;
+    justify-content: center;
+}
