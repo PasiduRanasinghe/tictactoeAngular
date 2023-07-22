@@ -8,6 +8,10 @@ main {
 app-square {
     height: 8rem;
 }
+#top{
+  display: flex;
+  
+}
 .spacer {
     flex: 1 1 auto;
   }
@@ -22,6 +26,17 @@ app-square {
     font-size: 1.5rem;
   }
 #board{
-    display: flex;
     justify-content: center;
+}
+#boardfull{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#home{
+  color: white;
+  font-size: 1rem;
+  text-decoration: solid;
 }
